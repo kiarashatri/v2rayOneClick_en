@@ -328,7 +328,7 @@ tls_config() {
 
     while :; do
         echo
-        echo -e "Please enter a ${magenta}correct domain name${none}, it must be correct, no! Yes! Wrong! Wrong!"
+        echo -e "Please enter a ${magenta}correct domain name${none}, it must be correct!"
         read -p "(eg: devbykia.space): " domain
         [ -z "$domain" ] && error && continue
         echo
@@ -1011,15 +1011,14 @@ esac
 clear
 while :; do
     echo
-    echo "..........V2Ray One-Click Installation Script & Admin Script by devbykia.space ..........."
-    echo
-    echo
-    echo
+    echo ".......... V2Ray One-Click Installation Script & Admin Script by devbykia.space ..........."
     echo
     echo
     echo " 1. Install"
     echo
     echo " 2. uninstall"
+    echo
+    echo
     echo
     if [[ $local_install ]]; then
         echo -e "$yellow Reminder.. Local installation is enabled ..$none"
