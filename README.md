@@ -24,5 +24,5 @@ english version of one click installation v2ray with many future's.
   ```
   
   ## IMPORTANT :
-    this is English translated OneClick install v2ray and it isn't the translate of main v2ray-core.
-    V2ray-core translating may avaliable very soon.
+    this is English translated version of OneClick installation v2ray script and it isn't the translated version of main v2ray-core.
+    **V2ray-core translating may avaliable very soon.**
